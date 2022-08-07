@@ -1,0 +1,184 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-nav {
+  font-size: 24px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 64px;
+}
+
+.header-nav-links {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-nav-links ul {
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-media {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 64px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.header-content-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.header-content-paragraph {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-image {
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+}
+
+.button button {
+  background-color: #3882f6;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 8px;
+  border-style: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin: 24px 0px;
+}
+
+.content-media {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  margin-bottom: 48px;
+}
+
+.content-image {
+  width: 100px;
+  height: 100px;
+  border: 2px solid blue;
+  border-radius: 8px;
+}
+
+.content-one,
+.content-two,
+.content-three,
+.content-four {
+  max-width: 100px;
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  background-color: #e5e7eb;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-word {
+  font-size: 30px;
+  font-style: italic;
+  color: lightslategray;
+  margin: 64px 196px;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ad {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0px;
+}
+
+.ad-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  background-color: #3882f6;
+  width: 850px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.ad-text {
+  color: white;
+}
+
+.ad-text-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ad-button button {
+  border: 1px solid white;
+  background-color: #3882f6;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  background-color: #1f2937;
+  padding: 20px 0px;
+  color: white;
+}
